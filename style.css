@@ -3,6 +3,10 @@ body {
   font-weight: 500;
 }
 
+.imgbox img {
+  width: 100%;
+}
+
 a {
   color: orange;
 }
@@ -105,5 +109,38 @@ header nav a:hover {
 }
 
 #portfolio {
-  padding: 90px 0;
+  padding: 90px 0px;
+  background-color: #f7f7f7;
+}
+#portfolio .textbox h1 {
+  font-weight: 700;
+  font-size: 55px;
+  font-family: sans-serif;
+}
+#portfolio .textbox h3 {
+  font-size: 20px;
+  color: #777575;
+  margin: 20px 0 65px;
+  font-style: italic;
+  font-family: math;
+}
+#portfolio .box {
+  background-color: white;
+  width: 360px;
+  height: 330px;
+  margin: 0 20px 20px 0;
+  position: relative;
+}
+#portfolio .box .imgbox:hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0;
+  background-color: #f8cf75;
+}
+#portfolio .box .imgbox:hover h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
