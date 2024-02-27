@@ -127,20 +127,11 @@ header nav a:hover {
 #portfolio .box {
   background-color: white;
   width: 360px;
-  height: 330px;
+  height: 380px;
   margin: 0 20px 20px 0;
-  position: relative;
 }
 #portfolio .box .imgbox:hover {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 0px;
-  right: 0;
-  background-color: #f8cf75;
-}
-#portfolio .box .imgbox:hover h5 {
-  font-size: 20px;
-  font-weight: 700;
-  color: white;
+  background-color: #f2c13a;
 }/*# sourceMappingURL=style.css.map */
