@@ -18,7 +18,34 @@
         height: 380px
         margin: 0 20px 20px 0
         .imgbox
-            &:hover
-                width: 100%
-                height: 100%
-                background-color: #f2c13a
+            position: relative
+            .minibox
+                position: absolute
+                top: 0
+                left: 0
+                width: 360px
+                height: 270px
+                opacity: 0
+                h5
+                    color: #ffff
+                    text-align: center
+                    line-height: 1.8
+                    font-size: 130px
+                    font-weight: 300
+                &:hover
+                    width: 100%
+                    height: 100%
+                    background-color: #f2c13a
+                    opacity: 1
+                    transition: 1s
+        .textbox
+            h2
+                font-size: 25px
+                font-weight: 700
+                font-family: sans-serif
+                margin: 25px 0 10px
+            h4
+                font-size: 18px
+                font-style: italic
+                font-family: math
+                color: #777575
