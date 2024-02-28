@@ -3,6 +3,9 @@ body {
   font-weight: 500;
 }
 
+.imgbox {
+  overflow: hidden;
+}
 .imgbox img {
   width: 100%;
 }
@@ -178,10 +181,38 @@ header nav a:hover {
   font-size: 55px;
   font-family: sans-serif;
 }
-#about h3 {
+#about h3, #about p {
   font-size: 20px;
   color: #777575;
+}
+#about h3 {
   margin: 20px 0 65px;
   font-style: italic;
   font-family: math;
+}
+#about .box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 400px;
+}
+#about .box .textbox1 {
+  width: 350px;
+}
+#about .box h2 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 1.2;
+  font-family: sans-serif;
+}
+#about .box p {
+  margin-top: 20px;
+  line-height: 1.2;
+  font-family: serif;
+}
+#about .box .imgbox1 {
+  position: absolute;
+  top: 0;
+  left: 450px;
+  border-radius: 100px;
 }/*# sourceMappingURL=style.css.map */
