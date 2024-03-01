@@ -34,8 +34,6 @@ header nav a:hover {
   background-image: url("Assets/header-bg.jpg");
   background-size: cover;
   background-position: center center;
-  width: 100%;
-  height: 800px;
 }
 #welcome .box {
   width: 950px;
