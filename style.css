@@ -51,14 +51,11 @@ header nav a:hover {
 #welcome .box h2 {
   font-size: 42px;
   color: white;
-  font-style: italic;
-  font-family: math;
 }
 #welcome .box h1 {
   font-weight: 700;
   font-size: 72px;
   color: white;
-  font-family: sans-serif;
   margin: 30px 40px 40px;
 }
 #welcome .box .btn {
@@ -77,14 +74,11 @@ header nav a:hover {
 #services h1 {
   font-weight: 700;
   font-size: 55px;
-  font-family: sans-serif;
 }
 #services h3 {
   font-size: 20px;
   color: #777575;
   margin: 20px 0 65px;
-  font-style: italic;
-  font-family: math;
 }
 #services .box {
   display: flex;
@@ -103,14 +97,12 @@ header nav a:hover {
 #services .box .textbox h2 {
   font-weight: 700;
   font-size: 32px;
-  font-family: sans-serif;
   margin: 15px 20px;
 }
 #services .box .textbox h4 {
   font-size: 20px;
   color: #868484;
   line-height: 1.2;
-  font-family: serif;
 }
 
 #portfolio {
@@ -120,14 +112,11 @@ header nav a:hover {
 #portfolio .textbox h1 {
   font-weight: 700;
   font-size: 55px;
-  font-family: sans-serif;
 }
 #portfolio .textbox h3 {
   font-size: 20px;
   color: #777575;
   margin: 20px 0 65px;
-  font-style: italic;
-  font-family: math;
 }
 #portfolio .box {
   background-color: white;
@@ -163,13 +152,10 @@ header nav a:hover {
 #portfolio .box .textbox h2 {
   font-size: 25px;
   font-weight: 700;
-  font-family: sans-serif;
   margin: 25px 0 10px;
 }
 #portfolio .box .textbox h4 {
   font-size: 18px;
-  font-style: italic;
-  font-family: math;
   color: #777575;
 }
 
@@ -179,7 +165,6 @@ header nav a:hover {
 #about h1 {
   font-weight: 700;
   font-size: 55px;
-  font-family: sans-serif;
 }
 #about h3, #about p {
   font-size: 20px;
@@ -187,32 +172,26 @@ header nav a:hover {
 }
 #about h3 {
   margin: 20px 0 65px;
-  font-style: italic;
-  font-family: math;
 }
 #about .box {
   display: flex;
   flex-direction: column;
   position: relative;
-  width: 400px;
+  width: 300px;
+  height: 300px;
 }
-#about .box .textbox1 {
+#about .box .textbox {
   width: 350px;
 }
 #about .box h2 {
   font-size: 25px;
   font-weight: 700;
   line-height: 1.2;
-  font-family: sans-serif;
 }
 #about .box p {
   margin-top: 20px;
   line-height: 1.2;
-  font-family: serif;
 }
-#about .box .imgbox1 {
-  position: absolute;
-  top: 0;
-  left: 450px;
+#about .box .imgbox {
   border-radius: 100px;
 }/*# sourceMappingURL=style.css.map */
