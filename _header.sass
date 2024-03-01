@@ -8,9 +8,25 @@ header
     .imgbox
         width: 160px
     nav
+        display: block
         a
+            cursor: pointer
             font-size: 18px
             color: #fcf7f7
             margin-right: 30px
             &:hover
                 color: #f8cf75
+    .btn
+        display: none
+    @media screen and ( max-width: 990px )
+        nav
+            display: none
+        .btn
+            display: block
+            border: 2px solid #4a4949
+            border-radius: 5px
+            background-color: #353333
+            padding: 10px 25px 10px 10px
+            color: #a5a2a2
+            font-weight: 700
+            font-size: 18px
