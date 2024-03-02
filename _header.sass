@@ -5,8 +5,12 @@ header
     top: 0
     z-index: 1
     width: 100%
+    .menu
+        display: flex
+        justify-content: space-between
+        align-items: center
     .imgbox
-        width: 160px
+        width: 200px
     nav
         display: block
         a
@@ -19,14 +23,43 @@ header
     .btn
         display: none
     @media screen and ( max-width: 990px )
-        nav
-            display: none
-        .btn
-            display: block
-            border: 2px solid #4a4949
-            border-radius: 5px
-            background-color: #353333
-            padding: 10px 25px 10px 10px
-            color: #a5a2a2
-            font-weight: 700
-            font-size: 18px
+        .menu
+            .imgbox
+                width: 230px
+            nav
+                display: none
+            .btn
+                display: block
+                border: 2px solid #4a4949
+                border-radius: 10px
+                background-color: #353333
+                padding: 13px 35px 13px 13px
+                color: #a5a2a2
+                font-weight: 700
+                font-size: 18px
+    @media screen and ( max-width: 576px )
+        .menu
+            display: flex
+            justify-content: center
+            align-items: center
+            .imgbox
+                width: 250px
+            .btn
+                padding: 15px 40px 15px 15px
+                font-size: 22px
+    @media screen and ( max-width: 280px )
+        .menu
+            display: flex
+            justify-content: start
+            flex-flow: column
+            .imgbox
+                width: 300px
+            .btn
+                padding: 18px 45px 18px 18px
+                font-size: 30px
+
+            
+        
+
+
+        
