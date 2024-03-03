@@ -123,27 +123,35 @@ header .btn {
 }
 #services {
   padding: 90px 0;
+  width: 1300px;
 }
 #services h1 {
   font-weight: 700;
   font-size: 55px;
 }
 #services h3 {
-  font-size: 20px;
+  font-size: 22px;
   color: #777575;
   margin: 20px 0 65px;
 }
 #services .box {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
+  width: 360px;
+  height: 380px;
+  position: relative;
 }
 #services .box .minibox {
+  display: inline-block;
   width: 140px;
   height: 140px;
   background-color: #f2c13a;
   border-radius: 70px;
-  line-height: 1.9;
+}
+#services .box .minibox .icon {
+  position: absolute;
+  top: 30px;
+  right: 0;
+  bottom: 0;
+  left: 0;
   font-size: 70px;
   color: white;
 }
@@ -153,9 +161,14 @@ header .btn {
   margin: 15px 20px;
 }
 #services .box .textbox h4 {
-  font-size: 20px;
+  font-size: 22px;
   color: #868484;
-  line-height: 1.2;
+  line-height: 1.4;
+}
+@media screen and (max-width: 1200px) {
+  #services .box .textbox {
+    width: 330px;
+  }
 }
 
 #portfolio {
