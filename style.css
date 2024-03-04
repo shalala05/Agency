@@ -135,6 +135,7 @@ header .btn {
   margin: 20px 0 65px;
 }
 #services .box {
+  flex-wrap: wrap;
   width: 360px;
   height: 380px;
   position: relative;
@@ -147,6 +148,7 @@ header .btn {
   border-radius: 70px;
 }
 #services .box .minibox .icon {
+  text-align: center;
   position: absolute;
   top: 30px;
   right: 0;
@@ -161,19 +163,37 @@ header .btn {
   margin: 15px 20px;
 }
 #services .box .textbox h4 {
-  font-size: 22px;
+  font-size: 20px;
   color: #868484;
   line-height: 1.4;
 }
 @media screen and (max-width: 1200px) {
   #services .box {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    width: 360px;
+    width: 305px;
   }
   #services .box .textbox {
-    width: 333px;
+    width: 310px;
+  }
+}
+@media screen and (max-width: 992px) {
+  #services .box {
+    width: 220px;
+  }
+  #services .box .textbox {
+    width: 216px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #services .box {
+    width: 520px;
+  }
+  #services .box .textbox {
+    width: 520px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #services .box .textbox {
+    width: 500px;
   }
 }
 

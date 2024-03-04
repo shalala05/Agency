@@ -9,6 +9,7 @@
         color: #777575
         margin: 20px 0 65px
     .box
+        flex-wrap: wrap
         width: 360px
         height: 380px
         position: relative
@@ -19,6 +20,7 @@
             background-color: #f2c13a
             border-radius: 70px
             .icon
+                text-align: center
                 position: absolute
                 top: 30px
                 right: 0
@@ -32,14 +34,25 @@
                 font-size: 32px
                 margin: 15px 20px
             h4
-                font-size: 22px
+                font-size: 20px
                 color: #868484
                 line-height: 1.4
     @media screen and ( max-width: 1200px )
         .box
-            display: flex
-            justify-content: center
-            flex-wrap: wrap
-            width: 360px
+            width: 305px
             .textbox
-                width: 333px
+                width: 310px
+    @media screen and ( max-width: 992px )
+        .box
+            width: 220px
+            .textbox
+                width: 216px
+    @media screen and ( max-width: 768px )
+        .box
+            width: 520px
+            .textbox
+                width: 520px
+    @media screen and ( max-width: 576px )
+        .box
+            .textbox
+                width: 500px
