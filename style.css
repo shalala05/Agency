@@ -13,31 +13,28 @@ body {
 header {
   padding: 20px 0;
   background-color: #353333;
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 0;
-  right: 0;
   z-index: 1;
-  width: 100%;
 }
 header .menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-header .imgbox {
+header .menu .imgbox {
   width: 200px;
 }
-header nav {
+header .menu nav {
   display: block;
 }
-header nav a {
+header .menu nav a {
   cursor: pointer;
   font-size: 18px;
   color: #fcf7f7;
   margin-right: 30px;
 }
-header nav a:hover {
+header .menu nav:hover {
   color: #f8cf75;
 }
 header .btn {
@@ -93,34 +90,51 @@ header .btn {
 #welcome {
   background-image: url("Assets/header-bg.jpg");
   background-size: cover;
-  background-position: center center;
-  width: 1300px;
-  height: 830px;
+  background-position: center;
+  width: 100%;
+  height: 570px;
 }
 #welcome .box {
-  width: 900px;
-  height: 890px;
+  height: 480px;
 }
-#welcome .box h2 {
-  font-size: 52px;
+#welcome .textbox h2 {
+  font-size: 40px;
   color: white;
+  cursor: text;
 }
-#welcome .box h1 {
+#welcome .textbox h1 {
   font-weight: 700;
-  font-size: 97px;
+  font-size: 75px;
   color: white;
   margin: 30px 0 55px;
+  cursor: text;
 }
-#welcome .box .btn {
-  display: inline-block;
+#welcome .textbox .btn {
   font-weight: 700;
   color: white;
-  cursor: pointer;
   background-color: #fdda2a;
   border-radius: 7px;
   padding: 20px 45px;
   font-size: 25px;
 }
+#welcome .textbox .btn h3 {
+  cursor: pointer;
+}
+#welcome .textbox .btn:hover .btn {
+  background-color: #fdda2a;
+}
+@media screen and (max-width: 768px) {
+  #welcome .box {
+    height: 450px;
+  }
+  #welcome .box h1 {
+    font-size: 60px;
+  }
+  #welcome .box h1 h2 {
+    font-size: 25px;
+  }
+}
+
 #services {
   padding: 90px 0;
   width: 1300px;
