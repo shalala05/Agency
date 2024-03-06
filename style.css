@@ -10,6 +10,10 @@ body {
   width: 100%;
 }
 
+section {
+  padding: 80px 0;
+}
+
 header {
   padding: 20px 0;
   background-color: #353333;
@@ -34,7 +38,7 @@ header .menu nav a {
   color: #fcf7f7;
   margin-right: 30px;
 }
-header .menu nav:hover {
+header .menu nav a:hover {
   color: #f8cf75;
 }
 header .btn {
@@ -90,48 +94,61 @@ header .btn {
 #welcome {
   background-image: url("Assets/header-bg.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   width: 100%;
-  height: 570px;
+  height: 800px;
 }
 #welcome .box {
-  height: 480px;
+  height: 710px;
 }
 #welcome .textbox h2 {
-  font-size: 40px;
+  font-size: 45px;
   color: white;
   cursor: text;
 }
 #welcome .textbox h1 {
   font-weight: 700;
-  font-size: 75px;
+  font-size: 100px;
   color: white;
-  margin: 30px 0 55px;
+  margin: 25px 0 65px;
   cursor: text;
 }
 #welcome .textbox .btn {
   font-weight: 700;
-  color: white;
-  background-color: #fdda2a;
+  background-color: #eab629;
   border-radius: 7px;
-  padding: 20px 45px;
-  font-size: 25px;
+  padding: 20px 50px;
 }
 #welcome .textbox .btn h3 {
+  font-size: 22px;
+  color: white;
   cursor: pointer;
 }
-#welcome .textbox .btn:hover .btn {
-  background-color: #fdda2a;
+#welcome .textbox .btn:hover {
+  background-color: #d3a31e;
+}
+@media screen and (max-width: 992px) {
+  #welcome .box {
+    width: 600px;
+    height: 625px;
+  }
+  #welcome .box h1 {
+    font-size: 85px;
+  }
+  #welcome .box .btn {
+    padding: 20px 48px;
+    font-size: 22px;
+  }
 }
 @media screen and (max-width: 768px) {
   #welcome .box {
-    height: 450px;
+    height: 720px;
   }
   #welcome .box h1 {
-    font-size: 60px;
+    font-size: 73px;
   }
-  #welcome .box h1 h2 {
-    font-size: 25px;
+  #welcome .box h2 {
+    font-size: 35px;
   }
 }
 
