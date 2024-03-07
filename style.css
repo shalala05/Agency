@@ -41,25 +41,31 @@ header .menu nav a {
 header .menu nav a:hover {
   color: #f8cf75;
 }
-header .btn {
+header .menu .btn {
   display: none;
 }
 @media screen and (max-width: 992px) {
   header .menu .imgbox {
-    width: 230px;
+    width: 200px;
   }
   header .menu nav {
     display: none;
   }
   header .menu .btn {
-    display: block;
-    border: 2px solid #4a4949;
-    border-radius: 10px;
-    background-color: #353333;
-    padding: 13px 35px 13px 13px;
+    display: flex;
+    border-radius: 7px;
+    border: 1px solid #605e5e;
+    padding: 8px 13px 8px 8px;
+  }
+  header .menu .btn h3 {
     color: #a5a2a2;
     font-weight: 700;
     font-size: 18px;
+    margin-right: 10px;
+  }
+  header .menu .btn .icon {
+    color: #afacac;
+    margin-top: 2px;
   }
 }
 @media screen and (max-width: 576px) {
