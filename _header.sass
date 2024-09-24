@@ -1,0 +1,48 @@
+header
+    padding: 20px 0
+    background-color: #212529
+    position: fixed
+    right: 0
+    left: 0
+    z-index: 1
+    width: 100%
+    .menu
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .imgbox
+            width: 170px
+        nav
+            display: block
+            a
+                cursor: pointer
+                font-size: 18px
+                color: #fcf7f7
+                margin-right: 30px
+                &:hover
+                    color: #f8cf75
+        .btn
+            display: none
+    @media screen and ( max-width: 992px )
+        .menu
+            width: 100%
+            nav
+                display: none
+            .btn
+                display: flex
+                border-radius: 7px
+                border: 1px solid #605e5e
+                padding: 7px 13px 7px 11px
+                h3
+                    color: #a5a2a2
+                    font-weight: 700
+                    font-size: 18px
+                    margin-right: 10px
+                .icon
+                    color: #afacac
+                    margin-top: 2px
+    @media screen and ( max-width: 280px )
+        .menu
+            display: flex
+            flex-flow: row wrap
+            
